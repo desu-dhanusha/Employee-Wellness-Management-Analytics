@@ -19,25 +19,7 @@ This project is an AI-powered Employee Wellness Management System that helps use
 4. Open the generated ngrok URL.
 5. Register and log in to access the application.
 
-## Project Structure
 
-```
-Employee-Wellness-Management-Analytics/
-│
-├── notebooks/
-│   └── authentication.ipynb
-│
-├── src/
-│   └── streamlit_app.py
-│
-├── screenshots/
-│   ├── login_page.png
-│   ├── dashboard.png
-│   └── neon_database.png
-│
-├── requirements.txt
-└── README.md
-```
 
 ## Author
 Desu Dhanusha
