@@ -27,8 +27,8 @@ Develop a secure Employee Wellness Management System with user authentication.
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Users Table
+### Users Database Table
 ![Users Table](screenshots/users_table.png)
 
-### OTP Table
+### OTP Verification Table
 ![OTP Table](screenshots/otp_table.png)
