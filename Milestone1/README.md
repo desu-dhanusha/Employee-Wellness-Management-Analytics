@@ -41,6 +41,10 @@ Develop a secure Employee Wellness Management System with user authentication.
 ### Login Page
 ![Login Page](screenshots/login_page.png)
 
+### Sign Up Page
+
+![Sign Up Page](screenshots/signup_page.png)
+
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
