@@ -38,12 +38,14 @@ Develop a secure Employee Wellness Management System with user authentication.
 ### Home Page
 ![Home Page](screenshots/home_page.png)
 
+### Sign Up Page
+![Sign Up Page](screenshots/signup_page.png)
+
 ### Login Page
 ![Login Page](screenshots/login_page.png)
 
-### Sign Up Page
-
-![Sign Up Page](screenshots/signup_page.png)
+### Forgot Password
+![Forgot Password](screenshots/forgot_password_page.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
