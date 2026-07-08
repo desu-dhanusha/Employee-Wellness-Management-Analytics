@@ -55,3 +55,6 @@ Develop a secure Employee Wellness Management System with user authentication.
 
 ### OTP Verification Table
 ![OTP Table](screenshots/otp_table.png)
+
+### Authentication Execution
+![Authentication Execution](screenshots/authentication_execution.png)
