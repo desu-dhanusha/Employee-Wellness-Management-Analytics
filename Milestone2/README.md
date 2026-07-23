@@ -44,16 +44,11 @@ This milestone focuses on building a Natural Language Processing (NLP) preproces
 
 ---
 
-## Project Structure
+## Project Files
 
-```
-Milestone2/
-│── NLP Text Preprocessing Pipeline.ipynb
-│── README.md
-└── screenshots/
-```
-
----
+- NLP_Text_Preprocessing_Pipeline.ipynb
+- README.md
+- screenshots/
 
 ## How to Run
 
