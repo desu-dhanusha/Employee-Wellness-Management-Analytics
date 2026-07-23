@@ -85,6 +85,18 @@ Screenshots of:
 are available in the `screenshots` folder.
 
 ---
+## Sample Input
+
+I am feeling stressed because of my workload, but my team is very supportive.
+
+## Sample Output
+
+- Detected Language: English
+- Cleaned Text: feeling stressed workload team supportive
+- Tokens: ['feeling', 'stressed', 'workload', 'team', 'supportive']
+- Lemmatized Tokens: ['feel', 'stress', 'workload', 'team', 'supportive']
+- Sentiment: Negative
+- Emotion: Stress
 
 ## Outcome
 
