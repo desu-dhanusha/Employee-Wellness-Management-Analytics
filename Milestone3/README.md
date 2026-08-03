@@ -139,4 +139,3 @@ The hybrid NLP pipeline successfully combines transformer-based emotion detectio
 
 ### Database
 ![Database](screenshots/Database.png)
-
