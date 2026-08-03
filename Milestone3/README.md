@@ -123,13 +123,13 @@ The hybrid NLP pipeline successfully combines transformer-based emotion detectio
 
 ## Screenshots
 
-Login
+login
 
-Home
+home
 
-Journal
+journal
 
-Emotion Detection
+emotion Detection
 
 Dashboard
 
