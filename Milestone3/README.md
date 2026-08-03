@@ -120,23 +120,23 @@ Keep maintaining your healthy routine.
 The hybrid NLP pipeline successfully combines transformer-based emotion detection with VADER sentiment analysis for multilingual journal entries.
 
 ---
-
 ## Screenshots
 
-login
+### Login Page
+![Login](screenshots/login.png)
 
-home
+### Home
+![Home](screenshots/home.png)
 
-journal
+### Dashboard
+![Dashboard](screenshots/Dashboard_.png)
 
-emotion Detection
+### Journal
+![Journal](screenshots/journal.png)
 
-Dashboard
+### Emotion Detection
+![Emotion Detection](screenshots/emotion_detection.png)
 
-Database
+### Database
+![Database](screenshots/Database.png)
 
----
-
-## Submission
-
-Milestone 3 Completed
