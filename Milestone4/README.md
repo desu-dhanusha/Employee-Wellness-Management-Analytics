@@ -124,32 +124,56 @@ sentiment.
 
 ---
 
-## Project Structure
+## Project Organization
 
-```text
-Employee-Wellness-Management-Analytics/
+The project is organized into separate components to maintain a clean,
+modular, and maintainable structure.
 
-── Milestone4/
-   ── Backend/
-      ── auth.py
-     ── backend.py
-     ── db.py
-      ── email_utils.py
-     ── nlp_pipeline.py
-   
-   ── frontend/
-      ── app.py
-   
-   ── Models/
-     ── ModelsUsed.txt
-   
-   ── Screenshots/
-       ── Dashboard1.png
-       ── Emotion detection.png
-       ── Home-page.png
-       ── Journal entry.png
-       ── Journal-recommendation.png
-       ── Login-page.png
+### Backend
+Contains the server-side components responsible for authentication,
+API handling, database connectivity, email services, and NLP processing.
+
+**Components:**
+- `auth.py` – User authentication, JWT tokens, password hashing and OTP handling
+- `backend.py` – FastAPI backend and API endpoints
+- `db.py` – PostgreSQL database connectivity and database operations
+- `email_utils.py` – OTP and email communication
+- `nlp_pipeline.py` – Text preprocessing, sentiment and emotion analysis
+
+### Frontend
+The Streamlit-based user interface through which employees interact with
+the MoodMentor application.
+
+**Main File:**
+- `app.py` – Complete Streamlit application interface
+
+### Models
+Contains documentation of the machine learning and NLP models used in
+the application.
+
+**File:**
+- `ModelsUsed.txt` – Details of BERT, Qwen, VADER and other NLP components
+
+### Screenshots
+Contains screenshots demonstrating the major application interfaces and
+functionalities, including:
+
+- Login Page
+- Home Page
+- Dashboard
+- Journal Entry
+- Journal Recommendation
+- Emotion Detection
+
+### Database
+PostgreSQL is used for storing user information and wellness-related
+application data. Neon PostgreSQL is used as the cloud database service.
+
+### Integration
+The frontend communicates with the FastAPI backend, while the backend
+connects the NLP pipeline, machine learning models and PostgreSQL database
+to complete the end-to-end wellness analysis workflow.
+
 Screenshots
 Login Page
 
