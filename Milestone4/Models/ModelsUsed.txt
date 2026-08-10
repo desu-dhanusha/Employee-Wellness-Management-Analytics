@@ -1,1 +1,72 @@
+MOODMENTOR – MODELS AND NLP COMPONENTS USED
 
+1. BERT – Emotion Detection
+Model: bhadresh-savani/bert-base-go-emotion
+
+Purpose:
+Used for emotion classification of employee feedback.
+The model is trained on the GoEmotions dataset with 28 fine-grained emotion labels.
+These labels are mapped to the six application-level emotions:
+Happy, Sad, Stress, Angry, Fear, and Neutral.
+
+2. QWEN – Wellness Chatbot
+Model: Qwen/Qwen2.5-0.5B-Instruct
+
+Purpose:
+Used for the AI wellness chatbot.
+It generates supportive, conversational responses based on the employee's message
+and recent conversation history.
+
+3. VADER – Sentiment Analysis
+Library: vaderSentiment
+
+Purpose:
+Used for rule-based sentiment analysis.
+It provides Positive, Negative, Neutral and Compound sentiment scores.
+
+4. spaCy – Multilingual NLP
+Model: xx_sent_ud_sm
+
+Purpose:
+Used for multilingual sentence processing, tokenization and lemmatization.
+
+5. Language Detection
+Library: langdetect
+
+Purpose:
+Detects the language of the employee's input before preprocessing.
+
+6. Stopword Filtering
+Library: stopwordsiso
+
+Purpose:
+Provides language-aware stopword removal for multiple languages.
+
+7. Translation
+Library: deep-translator
+
+Purpose:
+Translates supported non-English text into English before English-based
+lemmatization and sentiment processing.
+
+8. PyTorch + Hugging Face Transformers
+
+Purpose:
+Used to load and run the BERT and Qwen transformer models.
+
+NLP PIPELINE:
+
+Input Text
+→ Unicode Normalization
+→ Language Detection
+→ Text Cleaning
+→ URL/Email/HTML Removal
+→ Emoji Extraction
+→ Punctuation & Number Removal
+→ Tokenization
+→ Language-aware Stopword Removal
+→ Translation
+→ Lemmatization
+→ VADER Sentiment Analysis
+→ BERT Emotion Detection
+→ Wellness Recommendation / Qwen Chatbot
